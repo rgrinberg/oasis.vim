@@ -16,6 +16,7 @@ syntax match oasisKey "Plugins:"
 syntax match oasisKey "Description:"
 
 syntax match oasisKey2 "\c\s\+Description\$\=:"
+syntax match oasisKey2 "\c\s\+Pack\$\=:"
 syntax match oasisKey2 "\c\s\+Default\$\=:"
 syntax match oasisKey2 "\c\s\+Path\$\=:"
 syntax match oasisKey2 "\c\s\+Findlibname\$\=:"
