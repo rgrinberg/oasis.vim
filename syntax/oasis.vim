@@ -36,6 +36,7 @@ syntax match oasisKey2 "\c\s\+Run\$\=:"
 syntax match oasisKey2 "\c\s\+WorkingDirectory\$\=:"
 syntax match oasisKey2 "\c\s\+BuildTools+:"
 syntax match oasisKey2 "\c\s\+XOCamlbuildPath\$\=:"
+syntax match oasisKey2 "\c\s\+XMETARequires\$\=:"
 syntax match oasisKey2 "\c\s\+XOCamlbuildLibraries\$\=:"
 
 highlight link oasisKeyword Keyword
