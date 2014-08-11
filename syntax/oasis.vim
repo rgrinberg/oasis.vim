@@ -5,6 +5,12 @@ endif
 syntax keyword oasisKeyword Document Executable Flag Library Document Test
 
 syntax match oasisKey "OASISFormat:"
+syntax match oasisKey "OCamlVersion:"
+syntax match oasisKey "Copyrights:"
+syntax match oasisKey "Maintainers:"
+syntax match oasisKey "XStdFilesAUTHORS:"
+syntax match oasisKey "XStdFilesREADME:"
+syntax match oasisKey "FindlibVersion:"
 syntax match oasisKey "Name:"
 syntax match oasisKey "Version:"
 syntax match oasisKey "Synopsis:"
