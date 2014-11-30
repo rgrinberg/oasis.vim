@@ -2,7 +2,7 @@ if exists("b:current_syntax")
     finish
 endif
 
-syntax keyword oasisKeyword Document Executable Flag Library Document Test
+syntax keyword oasisKeyword Document Executable Flag Library Document Test SourceRepository
 
 syntax match oasisKey "OASISFormat:"
 syntax match oasisKey "OCamlVersion:"
@@ -44,9 +44,18 @@ syntax match oasisKey2 "\c\s\+BuildTools+:"
 syntax match oasisKey2 "\c\s\+XOCamlbuildPath\$\=:"
 syntax match oasisKey2 "\c\s\+XMETARequires\$\=:"
 syntax match oasisKey2 "\c\s\+XMETADescription\$\=:"
+syntax match oasisKey2 "\c\s\+XMETAType\$\=:"
 syntax match oasisKey2 "\c\s\+InstallDir\$\=:"
 syntax match oasisKey2 "\c\s\+AlphaFeatures\$\=:"
 syntax match oasisKey2 "\c\s\+XOCamlbuildLibraries\$\=:"
+syntax match oasisKey2 "\c\s\+XOCamlbuildExtraArgs\$\=:"
+syntax match oasisKey2 "\c\s\+Type\$\=:"
+syntax match oasisKey2 "\c\s\+Location\$\=:"
+syntax match oasisKey2 "\c\s\+Branch\$\=:"
+syntax match oasisKey2 "\c\s\+Browser\$\=:"
+syntax match oasisKey2 "\c\s\+CSources\$\=:"
+syntax match oasisKey2 "\c\s\+CCLib\$\=:"
+syntax match oasisKey2 "\c\s\+CCOpt\$\=:"
 
 highlight link oasisKeyword Keyword
 highlight link oasisKey Identifier
